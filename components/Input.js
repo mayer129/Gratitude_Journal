@@ -13,7 +13,7 @@ export default function Input({handleSubmit}) {
                 onChange={e => setValue(e.target.value)} 
                 className="rounded px-3 py-2">
             </input>
-            <button tpye="submit" className="bg-pink-300 rounded px-12 py-2">Save</button>
+            <button type="submit" className="bg-pink-300 rounded px-12 py-2">Save</button>
         </form>
     )
 }
